@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div>
+  <table border="0" cellpadding="0" cellspacing="0" width="600px" bgcolor="#541494" style="font-family: 'Roboto Slab', sans-serif;">
+    <tr style="height: 140px; text-align: center;">
+      <td>
+        <img width="167" height="54" src="http://freldo-prod.s3.amazonaws.com/images/ico-logo-email.png" alt="logo">
+        <div style="margin: 0 auto; width: 100%; text-transform: uppercase; color: #fff; font-size: 20px; font-weight: 500; letter-spacing: 0.05em; padding-top: 8px">
+        Unleash the power of service market</div>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 0 20px;">
+        <table border="0" cellpadding="0" cellspacing="0" bgcolor="#fff" width="100%" style="font-family: 'Roboto Slab', sans-serif;">
+          <tr>
+            <td style="padding: 40px 30px;">
+							<div style="color: #3b3b3b; font-size: 14px;">Уважаемый инвестор,</div>
+							<div style="padding-top: 20px; color: #3b3b3b; font-size: 14px;">Спасибо, что присоединилсь к нашему ICO проекту!<br/> Ваш вклад - это уверенность в успешной реализации проекта.</div>
+							<div style="padding-top: 20px; color: #3b3b3b; font-size: 14px;">В скором времени после оплаты токены FRECNX будут зачислены на Ваш кошелек.</div>
+							<div style="padding-top: 20px; color: #3b3b3b; font-size: 14px;">Если в течение 24 часов после платы токены не будут зачислены на Ваш счет, пожалуйста, пришлите запрос в поддержку    
+							<a style="color: #541494; font-size: 14px; text-decoration: none" href="mailto:support@freldo.com" target="_top">support@freldo.com</a></div>
+							<div style="color: #3b3b3b; font-size: 14px; padding-top: 20px;">С уважением, <br/>Команда Freldo</div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr style="color: #ffffff; height: 60px; text-align: center; opacity: 0.9; font-size: 13px;">
+      <td>
+        <div style="margin: 9px auto; text-align: center; opacity: 0.9; width: 194px">
+            &copy; ${year} Freldo
+        </div>
+      </td>
+    </tr>
+  </table>
+  <div>
+</body>
+</html>

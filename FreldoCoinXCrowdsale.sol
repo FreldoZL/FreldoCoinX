@@ -1,14 +1,14 @@
 pragma solidity ^0.5.2;
 
-import "./NewFreldoToken.sol";
-import "./NewOwnable.sol";
+import "./FreldoCoinXToken.sol";
+import "./FreldoCoinX.sol";
 
-contract NewFreldoCrowdsaleBase is NewOwnable {
+contract FreldoCoinXCrowdsaleBase is NewOwnable {
   
   using SafeMath for uint256;
 
   // The token being sold
-  NewFreldoToken public token;
+  FreldoCoinX public token;
 
   uint256 public  maxAmmount;
   uint256 public  mintedAmmount;
@@ -30,7 +30,7 @@ contract NewFreldoCrowdsaleBase is NewOwnable {
   /**
    * @param _token Address of the token being sold
    */
-  constructor(NewFreldoToken _token uint256 _maxAmmount) public NewOwnable() {
+  constructor(FreldoCoinX _token uint256 _maxAmmount) public FreldoCoinXOwnable() {
     require(address(_token) != address(0));
 
 	maxAmmount = _maxAmount;
@@ -142,10 +142,10 @@ contract NewFreldoCrowdsaleBase is NewOwnable {
  
 }
 
-contract NewFreldoCrowdsale is 
-     NewFreldoCrowdsaleBase   {
+contract FreldoCoinXCrowdsale is
+     FreldoCoinXBase   {
 	
 	constructor()
-		public  NewFreldoCrowdsaleBase( new NewFreldoToken(), 8000000000000000000000000000)
+		public  FreldoCoinXBase( new FreldoCoinX(), 8000000000000000000000000000)
 		{}
 	}
